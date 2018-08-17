@@ -10,25 +10,25 @@ json format for maptube
 {
     "video_metadata": {
         "author": {
-            "first_name": "STRING",
-            "middle_name": "STRING",
-            "last_name": "STRING",
-            "email": "STRING",
-            "username": "STRING"
+            "first_name": STRING,
+            "middle_name": STRING,
+            "last_name": STRING,
+            "email": STRING,
+            "username": STRING
         },
         "properties": {
-            "title": "STRING",
-            "description": "STRING",
-            "duration": INTEGER (IN SECONDS),
+            "title": STRING,
+            "description": STRING,
+            "duration": INTEGER IN SECONDS,
             "created": INTEGER UNIX TIMESTAMP,
             "source": [
-                "STRING URL", 
-                "STRING URL",
+                STRING URL, 
+                STRING URL,
                 ...
             ],
             "keyword": [
-                "STRING", 
-                "STRING", 
+                STRING, 
+                STRING, 
                 ...
             ]
         }
