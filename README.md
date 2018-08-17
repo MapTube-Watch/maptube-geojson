@@ -1,12 +1,12 @@
 # MAPTUBE-JSON
 
->json format of maptube
+json format for maptube
 
 ****************
 
-### OVERALL JSON FORMAT
+#### OVERALL JSON FORMAT
 
-```
+```JSON
 {
     "video_metadata": {
         "author": {
@@ -43,7 +43,7 @@
 
 #### SINGLE FRAME FORMAT
 
-```
+```JSON
 {
     "frame": INTEGER (IN INCREMENT),
     "description": "STRING",
@@ -87,9 +87,9 @@
 
 #### INDIVIDUAL FEATURE
 
-1. POINT
+- POINT
 
-```
+```JSON
 {
     "type": "Point",
     "properties": {
@@ -114,9 +114,9 @@
 }
 ```
 
-2. LINESTRING
+- LINESTRING
 
-```
+```JSON
 {
     "type": "LineString",
     "properties": {
@@ -145,9 +145,9 @@
 }
 ```
 
-3. POLYGON
+- POLYGON
 
-```
+```JSON
 {
     "type": "Polygon",
     "properties": {
@@ -179,9 +179,9 @@
 }
 ```
 
-4. MULTIPOINT
+- MULTIPOINT
 
-```
+```JSON
 {
     "type": "MultiPoint",
     "properties": {
@@ -210,9 +210,9 @@
 }
 ```
 
-5. MULTILINESTRING
+- MULTILINESTRING
 
-```
+```JSON
 {
     "type": "MultiLineString",
     "properties": {
@@ -249,9 +249,9 @@
 }
 ```
 
-6. MULTIPOLYGON
+- MULTIPOLYGON
 
-```
+```JSON
 {
     "type": "MultiPolygon",
     "properties": {
