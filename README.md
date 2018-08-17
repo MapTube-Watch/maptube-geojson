@@ -46,14 +46,13 @@ json format for maptube
 ```javascript
 {
     "frame": INTEGER IN INCREMENT,
-    "description": STRING,
-    "duration": INTEGER IN SECONDS TO STAY,
-    "basemap_style": MAPBOX STYLE,
-    "basemap_center_coord": [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-    "basemap_zoom": INTEGER,
     "properties": {
         "title": STRING,
         "description": STRING,
+        "duration": INTEGER IN SECONDS TO STAY,
+        "basemap_style": MAPBOX STYLE,
+        "basemap_center_coord": [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+        "basemap_zoom": INTEGER,
         "source": [
             STRING URL, 
             STRING URL,
@@ -64,7 +63,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "geojson": {
         "type": "FeatureCollection",
         "features": [
@@ -98,15 +97,17 @@ json format for maptube
     "geometry": {
         "type": "GeometryCollection",
         "geometries": [
-            __INDIVIDUAL_FEATURE__,
-            __INDIVIDUAL_FEATURE__,
+            __GEOMETRY_COLLECTION__,
+            __GEOMETRY_COLLECTION__,
             ...
         ]
     }
 }
 ```
 
-#### \_\_INDIVIDUAL_FEATURE\_\_
+#### \_\_GEOMETRY_COLLECTION\_\_
+
+#### List of Individual Geometries
 
 - POINT
 
@@ -130,7 +131,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [DOUBLE LATITUDE, DOUBLE LONGITUDE]
 }
 ```
@@ -157,7 +158,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [
         [DOUBLE LATITUDE, DOUBLE LONGITUDE],
         [DOUBLE LATITUDE, DOUBLE LONGITUDE],
@@ -188,7 +189,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [
         [
             [DOUBLE LATITUDE, DOUBLE LONGITUDE],
@@ -222,7 +223,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [
         [DOUBLE LATITUDE, DOUBLE LONGITUDE],
         [DOUBLE LATITUDE, DOUBLE LONGITUDE],
@@ -253,7 +254,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [
         [
             [DOUBLE LATITUDE, DOUBLE LONGITUDE],
@@ -292,7 +293,7 @@ json format for maptube
             STRING, 
             ...
         ]
-    }
+    },
     "coordinates": [
         [
             [

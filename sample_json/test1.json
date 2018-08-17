@@ -1,0 +1,464 @@
+{
+    "video_metadata": {
+        "author": {
+            "first_name": "Mohammed",
+            "middle_name": "",
+            "last_name": "Zia",
+            "email": "mohammed.zia33@gmail.com",
+            "username": "zia123"
+        },
+        "properties": {
+            "title": "Natural Earth",
+            "description": "Free vector map data at 1:10m scale",
+            "duration": 20,
+            "created": 1234567890,
+            "source": [
+                "http://www.naturalearthdata.com/features/", 
+                "www.google.com"
+            ],
+            "keyword": [
+                "nature", 
+                "earth", 
+                "rivers"
+            ]
+        }
+    },
+    "video_data": [
+        {
+            "frame": 1,
+            "properties": {
+                "title": "Intro Map",
+                "description": "Intro Map Description",
+                "duration": 3,
+                "basemap_style": "mapbox://styles/mapbox/light-v9",
+                "basemap_center_coord": [0.00, 0.00],
+                "basemap_zoom": 2,
+                "source": [
+                    "url 1", 
+                    "url 2",
+                    "url 3"
+                ],
+                "keyword": [
+                    "keyword 1", 
+                    "keyword 2", 
+                    "keyword 3"
+                ]
+            },
+            "geojson": {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "Feature Collection 1",
+                            "description": "Feature Collection 1 Description",
+                            "source": [
+                                "url 11", 
+                                "url 12",
+                                "url 13"
+                            ],
+                            "keyword": [
+                                "keyword 11", 
+                                "keyword 12", 
+                                "keyword 13"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "Point",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#1234",
+                                            "thickness": 3
+                                        },
+                                        "title": "title 1",
+                                        "description": "title 1 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [0.00 ,0.00]
+                                }
+                            ]
+                        }
+                    }                  
+                ]
+            }
+        },
+        {
+            "frame": 2,
+            "properties": {
+                "title": "Frame 2",
+                "description": "Frame 2 Description",
+                "duration": 3,
+                "basemap_style": "mapbox://styles/mapbox/light-v9",
+                "basemap_center_coord": [72.27, 28.56],
+                "basemap_zoom": 5,
+                "source": [
+                    "url 4", 
+                    "url 5",
+                    "url 6"
+                ],
+                "keyword": [
+                    "keyword 5", 
+                    "keyword 6", 
+                    "keyword 7"
+                ]
+            },
+            "geojson": {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "Feature 1",
+                            "description": "Feature 1 Description",
+                            "source": [
+                                "url 14", 
+                                "url 15",
+                                "url 16"
+                            ],
+                            "keyword": [
+                                "keyword 14", 
+                                "keyword 15", 
+                                "keyword 16"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "Point",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#fdsr32",
+                                            "thickness": 2
+                                        },
+                                        "title": "title 2",
+                                        "description": "title 2 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [72.27, 28.56]
+                                },
+                                {
+                                    "type": "LineString",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#ewr422",
+                                            "thickness": 5
+                                        },
+                                        "title": "title 3",
+                                        "description": "title 3 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [72.27, 28.56], 
+                                        [73.27, 28.56]
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "Feature 2",
+                            "description": "Feature 2 Description",
+                            "source": [
+                                "url 16", 
+                                "url 17",
+                                "url 18"
+                            ],
+                            "keyword": [
+                                "keyword 16", 
+                                "keyword 17", 
+                                "keyword 18"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "Polygon",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#rwer3",
+                                            "thickness": 8
+                                        },
+                                        "title": "title 5",
+                                        "description": "title 5 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [
+                                            [-86.02, 45.44],
+                                            [-87.02, 45.44],
+                                            [-86.02, 44.44],
+                                            [-86.02, 45.44]
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    }                         
+                ]
+            }
+        },
+        {
+            "frame": 3,
+            "properties": {
+                "title": "Frame 3",
+                "description": "Frame 3 Description",
+                "duration": 4,
+                "basemap_style": "mapbox://styles/mapbox/light-v9",
+                "basemap_center_coord": [-86.02, 45.44],
+                "basemap_zoom": 8,
+                "source": [
+                    "url 8", 
+                    "url 9",
+                    "url 10"
+                ],
+                "keyword": [
+                    "keyword 8", 
+                    "keyword 9", 
+                    "keyword 10"
+                ]
+            },
+            "geojson": {
+                "type": "FeatureCollection",
+                "features": [
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "Feature 1",
+                            "description": "Feature 1 Description",
+                            "source": [
+                                "url 20", 
+                                "url 21",
+                                "url 22"
+                            ],
+                            "keyword": [
+                                "keyword 20", 
+                                "keyword 21", 
+                                "keyword 22"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "MultiPoint",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#dsf4r4",
+                                            "thickness": 9
+                                        },
+                                        "title": "title 9",
+                                        "description": "title 9 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [45.00, 45.44], 
+                                        [45.00, 46.44]
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "Feature 2",
+                            "description": "Feature 2 Description",
+                            "source": [
+                                "url 24", 
+                                "url 25",
+                                "url 26"
+                            ],
+                            "keyword": [
+                                "keyword 24", 
+                                "keyword 25", 
+                                "keyword 26"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "MultiLineString",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#werwr3",
+                                            "thickness": 2
+                                        },
+                                        "title": "title 22",
+                                        "description": "title 22 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [
+                                            [30.00, 30.44], 
+                                            [30.00, 31.44]
+                                        ],
+                                        [
+                                            [31.00, 30.44], 
+                                            [31.00, 32.44]
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "Feature",
+                        "properties": {
+                            "title": "title",
+                            "description": "title description",
+                            "source": [
+                                "STRING URL", 
+                                "STRING URL",
+                                "..."
+                            ],
+                            "keyword": [
+                                "STRING", 
+                                "STRING", 
+                                "..."
+                            ]
+                        },
+                        "geometry": {
+                            "type": "GeometryCollection",
+                            "geometries": [
+                                {
+                                    "type": "MultiLineString",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#dfgget4",
+                                            "thickness": 5
+                                        },
+                                        "title": "title 33",
+                                        "description": "title 33 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [
+                                            [30.00, 30.44], 
+                                            [30.00, 31.44]
+                                        ],
+                                        [
+                                            [31.00, 30.44], 
+                                            [31.00, 32.44]
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "type": "MultiPolygon",
+                                    "properties": {
+                                        "style": {
+                                            "color": "#dfg3423",
+                                            "thickness": 1
+                                        },
+                                        "title": "title 50",
+                                        "description": "title 50 description",
+                                        "source": [
+                                            "STRING URL", 
+                                            "STRING URL",
+                                            "..."
+                                        ],
+                                        "keyword": [
+                                            "STRING", 
+                                            "STRING", 
+                                            "..."
+                                        ]
+                                    },
+                                    "coordinates": [
+                                        [
+                                            [
+                                                [10.00, 10.44], 
+                                                [11.00, 10.44], 
+                                                [10.00, 11.44], 
+                                                [10.00, 10.44]
+                                            ],
+                                            [
+                                                [10.00, 10.44], 
+                                                [12.00, 10.44], 
+                                                [10.00, 12.44], 
+                                                [10.00, 10.44]
+                                            ],
+                                                [10.00, 10.44], 
+                                                [9.00, 10.44], 
+                                                [10.00, 9.44], 
+                                                [10.00, 10.44]
+                                        ]
+                                    ]
+                                }
+                            ]
+                        }
+                    }                         
+                ]
+            }
+        }
+    ]
+}
