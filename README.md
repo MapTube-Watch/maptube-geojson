@@ -34,21 +34,21 @@ json format for maptube
         }
     },
     "video_data": [
-        __SINGLE FRAME FORMAT__,
-        __SINGLE FRAME FORMAT__,
+        __SINGLE_FRAME_FORMAT__,
+        __SINGLE_FRAME_FORMAT__,
         ...
     ]
 }
 ```
 
-#### SINGLE FRAME FORMAT
+#### __SINGLE_FRAME_FORMAT__
 
-```JSON
+```javascript
 {
-    "frame": INTEGER (IN INCREMENT),
-    "description": "STRING",
-    "duration": INTEGER (IN SECONDS),
-    "basemap_style": "MAPBOX STYLE",
+    "frame": INTEGER IN INCREMENT,
+    "description": STRING,
+    "duration": INTEGER IN SECONDS,
+    "basemap_style": MAPBOX STYLE,
     "basemap_center_coord": [DOUBLE LATITUDE, DOUBLE LONGITUDE],
     "basemap_zoom": INTEGER,
     "geojson": {
@@ -57,25 +57,25 @@ json format for maptube
         {
             "type": "Feature",
             "properties": {
-                "title": "STRING",
-                "description": "STRING",
-                "duration": INTEGER (IN SECONDS TO STAY),
+                "title": STRING,
+                "description": STRING,
+                "duration": INTEGER IN SECONDS TO STAY,
                 "source": [
-                    "STRING URL", 
-                    "STRING URL",
+                    STRING URL, 
+                    STRING URL,
                     ...
                 ],
                 "keyword": [
-                    "STRING", 
-                    "STRING", 
+                    STRING, 
+                    STRING, 
                     ...
                 ]
             },
             "geometry": {
             "type": "GeometryCollection",
             "geometries": [
-                __INDIVIDUAL FEATURE__,
-                __INDIVIDUAL FEATURE__,
+                __INDIVIDUAL_FEATURE__,
+                __INDIVIDUAL_FEATURE__,
                 ...
             ]
             }
@@ -85,11 +85,11 @@ json format for maptube
 }
 ```
 
-#### INDIVIDUAL FEATURE
+#### __INDIVIDUAL_FEATURE__
 
 - POINT
 
-```JSON
+```javascript
 {
     "type": "Point",
     "properties": {
@@ -97,16 +97,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
@@ -116,7 +116,7 @@ json format for maptube
 
 - LINESTRING
 
-```JSON
+```javascript
 {
     "type": "LineString",
     "properties": {
@@ -124,16 +124,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
@@ -147,7 +147,7 @@ json format for maptube
 
 - POLYGON
 
-```JSON
+```javascript
 {
     "type": "Polygon",
     "properties": {
@@ -155,16 +155,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
@@ -181,7 +181,7 @@ json format for maptube
 
 - MULTIPOINT
 
-```JSON
+```javascript
 {
     "type": "MultiPoint",
     "properties": {
@@ -189,16 +189,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
@@ -212,7 +212,7 @@ json format for maptube
 
 - MULTILINESTRING
 
-```JSON
+```javascript
 {
     "type": "MultiLineString",
     "properties": {
@@ -220,16 +220,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
@@ -251,7 +251,7 @@ json format for maptube
 
 - MULTIPOLYGON
 
-```JSON
+```javascript
 {
     "type": "MultiPolygon",
     "properties": {
@@ -259,16 +259,16 @@ json format for maptube
             "color": HTML COLOR CODE,
             "thickness": INTEGER
         },
-        "title": "STRING",
-        "description": "STRING",
+        "title": STRING,
+        "description": STRING,
         "source": [
-            "STRING URL", 
-            "STRING URL",
+            STRING URL, 
+            STRING URL,
             ...
         ],
         "keyword": [
-            "STRING", 
-            "STRING", 
+            STRING, 
+            STRING, 
             ...
         ]
     }
