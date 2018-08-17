@@ -4,7 +4,9 @@ json format for maptube
 
 ****************
 
-#### OVERALL JSON FORMAT
+#### OVERALL JSON FORMAT - Test it at [jsoneditoronline](https://jsoneditoronline.org/) and component structure is here 
+![component.jpg](https://raw.githubusercontent.com/MapTube-Watch/maptube-json/master/docs/components.jpg "Frame, Feature Collection and Geometry Collection")
+
 
 ```javascript
 {
