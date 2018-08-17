@@ -41,7 +41,7 @@ json format for maptube
 }
 ```
 
-#### __SINGLE_FRAME_FORMAT__
+#### \_\_SINGLE_FRAME_FORMAT\_\_
 
 ```javascript
 {
@@ -76,7 +76,7 @@ json format for maptube
 }
 ```
 
-#### __FEATURE_COLLECTION__
+#### \_\_FEATURE_COLLECTION\_\_
 
 ```javascript
 {
@@ -106,7 +106,7 @@ json format for maptube
 }
 ```
 
-#### __INDIVIDUAL_FEATURE__
+#### \_\_INDIVIDUAL_FEATURE\_\_
 
 - POINT
 
