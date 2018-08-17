@@ -6,7 +6,7 @@ json format for maptube
 
 #### OVERALL JSON FORMAT
 
-```JSON
+```javascript
 {
     "video_metadata": {
         "author": {
