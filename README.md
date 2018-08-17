@@ -47,39 +47,60 @@ json format for maptube
 {
     "frame": INTEGER IN INCREMENT,
     "description": STRING,
-    "duration": INTEGER IN SECONDS,
+    "duration": INTEGER IN SECONDS TO STAY,
     "basemap_style": MAPBOX STYLE,
     "basemap_center_coord": [DOUBLE LATITUDE, DOUBLE LONGITUDE],
     "basemap_zoom": INTEGER,
+    "properties": {
+        "title": STRING,
+        "description": STRING,
+        "source": [
+            STRING URL, 
+            STRING URL,
+            ...
+        ],
+        "keyword": [
+            STRING, 
+            STRING, 
+            ...
+        ]
+    }
     "geojson": {
         "type": "FeatureCollection",
         "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "title": STRING,
-                "description": STRING,
-                "duration": INTEGER IN SECONDS TO STAY,
-                "source": [
-                    STRING URL, 
-                    STRING URL,
-                    ...
-                ],
-                "keyword": [
-                    STRING, 
-                    STRING, 
-                    ...
-                ]
-            },
-            "geometry": {
-            "type": "GeometryCollection",
-            "geometries": [
-                __INDIVIDUAL_FEATURE__,
-                __INDIVIDUAL_FEATURE__,
-                ...
-            ]
-            }
-        }
+            __FEATURE_COLLECTION__,
+            __FEATURE_COLLECTION__,
+            ...                         
+        ]
+    }
+}
+```
+
+#### __FEATURE_COLLECTION__
+
+```javascript
+{
+    "type": "Feature",
+    "properties": {
+        "title": STRING,
+        "description": STRING,
+        "source": [
+            STRING URL, 
+            STRING URL,
+            ...
+        ],
+        "keyword": [
+            STRING, 
+            STRING, 
+            ...
+        ]
+    },
+    "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+            __INDIVIDUAL_FEATURE__,
+            __INDIVIDUAL_FEATURE__,
+            ...
         ]
     }
 }
