@@ -53,7 +53,7 @@ json format for maptube
         "description": STRING,
         "duration": INTEGER IN SECONDS TO STAY,
         "basemap_style": MAPBOX STYLE,
-        "basemap_center_coord": [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+        "basemap_center_coord": [DOUBLE LONGITUDE, DOUBLE LATITUDE],
         "basemap_zoom": INTEGER,
         "source": [
             STRING URL, 
@@ -134,7 +134,7 @@ json format for maptube
             ...
         ]
     },
-    "coordinates": [DOUBLE LATITUDE, DOUBLE LONGITUDE]
+    "coordinates": [DOUBLE LONGITUDE, DOUBLE LATITUDE]
 }
 ```
 
@@ -162,8 +162,8 @@ json format for maptube
         ]
     },
     "coordinates": [
-        [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-        [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+        [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+        [DOUBLE LONGITUDE, DOUBLE LATITUDE],
         ...
     ]
 }
@@ -194,9 +194,9 @@ json format for maptube
     },
     "coordinates": [
         [
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
             ...
         ]
     ]
@@ -227,8 +227,8 @@ json format for maptube
         ]
     },
     "coordinates": [
-        [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-        [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+        [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+        [DOUBLE LONGITUDE, DOUBLE LATITUDE],
         ...
     ]
 }
@@ -259,13 +259,13 @@ json format for maptube
     },
     "coordinates": [
         [
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
             ...
         ],
         [
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-            [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+            [DOUBLE LONGITUDE, DOUBLE LATITUDE],
             ...
         ],
         ...
@@ -299,30 +299,30 @@ json format for maptube
     "coordinates": [
         [
             [
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
                 ...
             ],
             [
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
                 ...
             ],
             ...
         ],
         [
             [
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
                 ...
             ],
             [
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
-                [DOUBLE LATITUDE, DOUBLE LONGITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
+                [DOUBLE LONGITUDE, DOUBLE LATITUDE],
                 ...
             ],
             ...
