@@ -25,8 +25,9 @@
     },
     "video_data": [
         {
-            "frame": 1,
+            "type": "Frame",
             "properties": {
+                "frameID": 1,
                 "title": "Intro Map",
                 "description": "Intro Map Description",
                 "duration": 3,
@@ -50,6 +51,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 1,
                             "title": "Feature Collection 1",
                             "description": "Feature Collection 1 Description",
                             "source": [
@@ -69,6 +71,7 @@
                                 {
                                     "type": "Point",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#1234",
                                             "thickness": 3
@@ -95,8 +98,9 @@
             }
         },
         {
-            "frame": 2,
+            "type": "Frame",
             "properties": {
+                "frameID": 2,
                 "title": "Frame 2",
                 "description": "Frame 2 Description",
                 "duration": 3,
@@ -120,6 +124,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 1,
                             "title": "Feature 1",
                             "description": "Feature 1 Description",
                             "source": [
@@ -139,6 +144,7 @@
                                 {
                                     "type": "Point",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#fdsr32",
                                             "thickness": 2
@@ -161,6 +167,7 @@
                                 {
                                     "type": "LineString",
                                     "properties": {
+                                        "geometryID": 2,
                                         "style": {
                                             "color": "#ewr422",
                                             "thickness": 5
@@ -189,6 +196,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 2,
                             "title": "Feature 2",
                             "description": "Feature 2 Description",
                             "source": [
@@ -208,6 +216,7 @@
                                 {
                                     "type": "Polygon",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#rwer3",
                                             "thickness": 8
@@ -241,8 +250,9 @@
             }
         },
         {
-            "frame": 3,
+            "type": "Frame",
             "properties": {
+                "frameID": 3,
                 "title": "Frame 3",
                 "description": "Frame 3 Description",
                 "duration": 4,
@@ -266,6 +276,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 1,
                             "title": "Feature 1",
                             "description": "Feature 1 Description",
                             "source": [
@@ -285,6 +296,7 @@
                                 {
                                     "type": "MultiPoint",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#dsf4r4",
                                             "thickness": 9
@@ -313,6 +325,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 2,
                             "title": "Feature 2",
                             "description": "Feature 2 Description",
                             "source": [
@@ -332,6 +345,7 @@
                                 {
                                     "type": "MultiLineString",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#werwr3",
                                             "thickness": 2
@@ -366,6 +380,7 @@
                     {
                         "type": "Feature",
                         "properties": {
+                            "featureID": 3,
                             "title": "title",
                             "description": "title description",
                             "source": [
@@ -385,6 +400,7 @@
                                 {
                                     "type": "MultiLineString",
                                     "properties": {
+                                        "geometryID": 1,
                                         "style": {
                                             "color": "#dfgget4",
                                             "thickness": 5
@@ -416,6 +432,7 @@
                                 {
                                     "type": "MultiPolygon",
                                     "properties": {
+                                        "geometryID": 2,
                                         "style": {
                                             "color": "#dfg3423",
                                             "thickness": 1

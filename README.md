@@ -47,8 +47,9 @@ json format for maptube
 
 ```javascript
 {
-    "frame": INTEGER IN INCREMENT,
+    "type": "Frame",
     "properties": {
+        "frameID": UNIQUE INTEGER,
         "title": STRING,
         "description": STRING,
         "duration": INTEGER IN SECONDS TO STAY,
@@ -83,6 +84,7 @@ json format for maptube
 {
     "type": "Feature",
     "properties": {
+        "featureID": UNIQUE INTEGER,
         "title": STRING,
         "description": STRING,
         "source": [
@@ -117,6 +119,7 @@ json format for maptube
 {
     "type": "Point",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
@@ -144,6 +147,7 @@ json format for maptube
 {
     "type": "LineString",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
@@ -175,6 +179,7 @@ json format for maptube
 {
     "type": "Polygon",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
@@ -209,6 +214,7 @@ json format for maptube
 {
     "type": "MultiPoint",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
@@ -240,6 +246,7 @@ json format for maptube
 {
     "type": "MultiLineString",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
@@ -279,6 +286,7 @@ json format for maptube
 {
     "type": "MultiPolygon",
     "properties": {
+        "geometryID": UNIQUE INTEGER,
         "style": {
             "color": HTML COLOR CODE,
             "thickness": INTEGER
